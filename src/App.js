@@ -5,7 +5,6 @@ import Card from "./components/Card/Card";
 function App() {
   return (
     <div className="App">
-      USER INFORMATION
       <Users />
       <Card />
     </div>
