@@ -1,0 +1,21 @@
+.btn button {
+  background-color: #0d6efd;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 0.3rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  position: absolute;
+  bottom: 2%;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.btn button:hover {
+  background-color: rgb(246, 248, 246);
+  color: #1a73e8;
+  border: 1px solid #1a73e8;
+}
