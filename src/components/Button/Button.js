@@ -1,9 +1,11 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
-const Button = () => {
+const Button = ({ id }) => {
   return (
     <div>
-      <button>More Details</button>
+      <Link to={`/${id}`}>
+        <button>More Details</button>
+      </Link>
     </div>
   );
 };
