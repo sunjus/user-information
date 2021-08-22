@@ -1,0 +1,18 @@
+.card {
+  border: 1px solid black;
+  margin: 10rem auto;
+  padding: 1rem;
+  width: 300px;
+}
+.cardBody {
+  font-size: 1.3rem;
+  padding: 1rem 0.5rem;
+}
+h4 {
+  line-height: 1.3rem;
+  margin: 1rem;
+}
+ul {
+  margin: 0;
+  padding: 0.2rem 2rem;
+}
