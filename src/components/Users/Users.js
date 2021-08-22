@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import User from "../User";
+import style from "./users.module.css";
 
 const Users = () => {
   const [data, setData] = useState(null);
@@ -13,21 +14,23 @@ const Users = () => {
   }, []);
   //console.log(data);
   return (
-    <div>
-      {data ? (
-        data.map((user) => (
-          <User
-            key={user.id}
-            character={user.name[0]}
-            name={user.name}
-            username={user.username}
-            website={user.website}
-            id={user.id}
-          />
-        ))
-      ) : (
-        <div>Loading...</div>
-      )}
+    <div className={style.usersContainer}>
+      <div className={style.users}>
+        {data ? (
+          data.map((user) => (
+            <User
+              key={user.id}
+              character={user.name[0]}
+              name={user.name}
+              username={user.username}
+              website={user.website}
+              id={user.id}
+            />
+          ))
+        ) : (
+          <div>Loading...</div>
+        )}
+      </div>
     </div>
   );
 };
