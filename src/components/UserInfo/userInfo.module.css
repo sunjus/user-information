@@ -7,8 +7,9 @@
 .cardBody {
   font-size: 1.3rem;
   padding: 1rem 0.5rem;
+  list-style-type: none;
 }
-h4 {
+li {
   line-height: 1.3rem;
   margin: 1rem;
 }
