@@ -12,7 +12,7 @@ const Users = () => {
       .then((parsedData) => setUserList(parsedData))
       .catch((error) => console.log(error));
   }, []);
-  //console.log(data);
+  //console.log(userList);
   return (
     <div className={style.usersContainer}>
       <div className={style.users}>

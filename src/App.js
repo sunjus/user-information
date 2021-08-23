@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Users from "./components/Users/Users";
-import UserInfo from "./components/UserInfo/UserInfo";
+import UserDetail from "./components/UserDetail/UserDetail";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
             <Users />
           </Route>
           <Route path="/:id">
-            <UserInfo />
+            <UserDetail />
           </Route>
         </Switch>
       </div>
