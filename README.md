@@ -1,5 +1,5 @@
 ### Description
-This page renders user's information. It will display more information if click the button on the first page. It's using React functional components and jsonplaceholder Api to get data.
+This app renders user's information. It will display more information if the button on the first page is clicked. It's using React functional components and jsonplaceholder Api to get data.
 
 ### Live Demo 
 - [Click to go to live demo](https://sunjus-user-information.netlify.app/)
