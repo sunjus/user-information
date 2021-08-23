@@ -21,15 +21,15 @@ const UserInfo = () => {
     <div className={style.card}>
       {userInfo ? (
         <ul className={style.cardBody}>
-          <li>- username: {userInfo.username}</li>
-          <li>- email: {userInfo.email}</li>
-          <li>- phone: {userInfo.phone}</li>
-          <li>- name: {userInfo.name}</li>
-          <li>- website: {userInfo.website}</li>
-          <li>- company: {userInfo.company.name}</li>
+          <li>username: {userInfo.username}</li>
+          <li>email: {userInfo.email}</li>
+          <li>phone: {userInfo.phone}</li>
+          <li>name: {userInfo.name}</li>
+          <li>website: {userInfo.website}</li>
+          <li>company: {userInfo.company.name}</li>
           <li>
-            - address:
-            <ul>
+            address:
+            <ul className={style.card2}>
               <li>{userInfo.address.street}</li>
               <li>{userInfo.address.suite}</li>
               <li>{userInfo.address.city}</li>

@@ -7,8 +7,9 @@
 .cardBody {
   font-size: 1.3rem;
   padding: 1rem 0.5rem;
-  list-style-type: none;
+  font-weight: 600;
 }
+
 li {
   line-height: 1.3rem;
   margin: 1rem;
@@ -16,4 +17,22 @@ li {
 ul {
   margin: 0;
   padding: 0.2rem 2rem;
+  list-style: none;
+}
+.cardBody li::before {
+  content: "\2027";
+  color: black;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.card2 li::before {
+  content: "\2022";
+  color: black;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
